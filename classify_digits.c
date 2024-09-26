@@ -127,6 +127,6 @@ int main(){
 		class[i]=idx;
 	}
 	for (int i=0;i<1000;i++)correct+=(class[i]==test_labels[i]);
-	printf("%d\n", correct);
+	printf("%d\/1000\n", correct);
 	return 0;
 }
